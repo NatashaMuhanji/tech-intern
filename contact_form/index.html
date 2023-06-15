@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/complain.png".png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+          rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+          crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Contat Form</title>
+</head>
+<body>
+    <div class="conatiner col-lg-10">
+     <div class="col-lg-4 p-2" id="photo-div">
+        <h2>Get in touch</h2>
+        <img src="assets/complain.png" alt="contact-photo" class="image mt-3">
+     </div>
+     <div class="col-lg-10 p-2" id="form-div">
+        <form class="col-lg-10" action="">
+            <label for="Name">Name</label>
+            <input type="text" name="Name" placeholder="Your Name" id="name" class="mb-2">
+            <label for="Email">Email</label>
+            <input type="email" name="Email" placeholder="email@example.com" id="email" class="mb-2">
+            <label for="Subject">Subject</label>
+            <input type="text" name="Subject" placeholder="Subject" id="subject" class="mb-2">
+            <label for="Textarea">Message</label>
+            <textarea name="textarea" placeholder="Write your mesage here" id="textarea" class="mb-3" cols="30" rows="7"></textarea>
+            <button type="submit">Send mail</button>
+        </form>
+     </div>
+    </div>
+</body>
+</html>
